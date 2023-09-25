@@ -39,10 +39,57 @@ class Program
             string sexo = Console.ReadLine();
             double salario = Convert.ToDouble(Console.ReadLine());
 
-           
+            
+            if (tipo == 1)
+            {
+
+                Console.WriteLine("Digite o CRM do médico:");
+                string crm = Console.ReadLine();
+                Console.WriteLine("Digite o valor da hora extra do médico:");
+                double valorHoraExtra = Convert.ToDouble(Console.ReadLine());
+                Console.WriteLine("Digite a especialidade do médico:");
+                string especialidade = Console.ReadLine();
+
+               
+
+                Medico medicoo = new Medico
+                {
+                    Nome = nome,
+                    CPF = cpf,
+                    Matricula = matricula,
+                    DataNascimento = dataNascimento,
+                    Sexo = sexo,
+                    Salario = salario,
+                    CRM = crm,
+                    ValorHoraExtra = valorHoraExtra,
+                    Especialidade = especialidade
+                };
+
+                m.Add(medicoo);
+            }
+            else if (tipo == 2)
+            {
+                Console.WriteLine("Digite a função do funcionário administrativo:");
+                string funcao = Console.ReadLine();
+
+                FuncionarioAdministrativo admin = new FuncionarioAdministrativo
+                {
+                    Nome = nome,
+                    CPF = cpf,
+                    Matricula = matricula,
+                    DataNascimento = dataNascimento,
+                    Sexo = sexo,
+                    Salario = salario,
+                    Funcao = funcao
+                };
+
+                administrativos.Add(admin);
+            }
         }
 
+        
 }
+
 
     
 }
