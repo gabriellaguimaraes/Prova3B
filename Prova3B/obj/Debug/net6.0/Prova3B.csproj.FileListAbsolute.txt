@@ -1,0 +1,5 @@
+C:\Users\2022102020055\Documents\poo\Prova3B\Prova3B\obj\Debug\net6.0\Prova3B.csproj.AssemblyReference.cache
+C:\Users\2022102020055\Documents\poo\Prova3B\Prova3B\obj\Debug\net6.0\Prova3B.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\2022102020055\Documents\poo\Prova3B\Prova3B\obj\Debug\net6.0\Prova3B.AssemblyInfoInputs.cache
+C:\Users\2022102020055\Documents\poo\Prova3B\Prova3B\obj\Debug\net6.0\Prova3B.AssemblyInfo.cs
+C:\Users\2022102020055\Documents\poo\Prova3B\Prova3B\obj\Debug\net6.0\Prova3B.csproj.CoreCompileInputs.cache
